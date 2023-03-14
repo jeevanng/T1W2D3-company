@@ -71,6 +71,13 @@ Home page, for now, just display some lorem ipsum text. Here is the code that we
 </main>
 ```
 
+### Services
+Services page displays the list of services that we provide. Here is the code; 
+
+```html
+...
+```
+
 ## Styling
 
 ### Components
@@ -84,3 +91,5 @@ This will contain the default variables such as colors, breakpoints etc.
 
 ### Pages
 This will contain the styling of each individual HTML pages. 
+
+
