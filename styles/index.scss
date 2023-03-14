@@ -22,7 +22,9 @@ header{
     @include background-stuff();
 
     .logo-name{
-        margin-bottom: 48px;
+        @media screen and (max-width: 600px) {
+            margin-bottom: 24px;
+        }
     
         .name{
             font-size: 28px;
@@ -50,6 +52,51 @@ header{
         a{
             text-decoration: none;
             color: #00a3d4;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        .logo-name{
+            // margin-bottom: 0px; This will be taken care of in mobile view 
+
+            .name{
+                margin-bottom: 0px;
+            }
+        }
+
+        .nav-items{
+            width: 50%;
+        }
+        
+    }
+
+    footer{
+        
+        .social-media{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+    }
+}
+
+main{
+
+    section{ 
+
+        .jumbotron{
+            
+            img{
+                height: 300px;
+                width: 100vw;
+            }
         }
     }
 }

@@ -50,3 +50,25 @@ Footer has social media links, contact number and address.  This will be at the 
         </div>
     </footer>
 ```
+
+## Pages
+
+### Home
+Home page, for now, just display some lorem ipsum text. Here is the code that we have used;
+
+```html
+<main>
+    <section>
+        <div class="jumbotron">
+            <img src="./images/Jumbotron.jpg" alt="Jumbotron Network">
+        </div>
+        <div class="details">
+            <p>
+                Lorem Ipsum text.
+            </p>
+        </div>
+    </section>
+</main>
+```
+
+

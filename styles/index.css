@@ -12,8 +12,10 @@ header {
   padding: 16px;
   text-align: center;
 }
-header .logo-name {
-  margin-bottom: 48px;
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 24px;
+  }
 }
 header .logo-name .name {
   font-size: 28px;
@@ -33,6 +35,29 @@ header .nav-items {
 header .nav-items a {
   text-decoration: none;
   color: #00a3d4;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0px;
+  }
+  header .nav-items {
+    width: 50%;
+  }
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+main section .jumbotron img {
+  height: 300px;
+  width: 100vw;
 }
 
 footer {
