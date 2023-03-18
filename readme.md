@@ -78,6 +78,9 @@ Services page displays the list of services that we provide. Here is the code;
 ...
 ```
 
+### Contact
+Contact page can be used to contact the Company.
+
 ## Styling
 
 ### Components
