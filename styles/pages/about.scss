@@ -1,0 +1,28 @@
+@import "../defaults/color";
+@import "../defaults/breakpoint";
+@import "../index";
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 75px 50px 1fr;
+    margin-bottom: 50px;
+
+    .heading{
+        background-color: $primary-color;
+        color: $secondary-color;
+        grid-column: 1 / -1;
+        grid-row: 1 / 3;
+        text-align: center;
+    }
+
+    .description{
+        height: 50vh;
+        // border: 1px solid red;
+        grid-column: 2 / 3;
+        grid-row: 2 / -1;
+        background-color: white;
+        padding: 20px;
+        overflow: scroll;
+    }
+}
